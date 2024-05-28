@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+header {
+    background-color: #d67a7a;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#courses {
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+.course {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.image1 {
+    width: 20%;
+    height: auto;
+}
+
+.course-details {
+    padding: 15px;
+}
+
+.course h3 {
+    margin-top: 0;
+}
+
+.price {
+    font-size: 1.2em;
+    color: green;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .course {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .course {
+        width: 100%;
+    }
+}
+
+
+.image2
+{
+    width: 50%;
+    height: 100px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+ nav ul {
+    list-style: none ;
+    display: flex;
+    gap: 1rem;
+    
+}
+.course img{
+    margin-top: 10px;
+}
+.divs{
+    margin-top: 40px;text-align: center;font-size: 60px;font-family: 'Times New Roman', Times, serif;
+}
+footer .dail {
+   
+    max-width: 100%;
+    margin: 0 auto;
+    color:white;
+    height:40px;
+    text-align:center;
+    margin-top:40px;
+}
+.try{
+
+    width:100%;
+    background-color:linen;
+    height:250px;
+    display:flex
+}
+.sad {
+    
+    width: 30%;
+    margin: 10px;
+    overflow: hidden;
+    text-align: center;
+}
