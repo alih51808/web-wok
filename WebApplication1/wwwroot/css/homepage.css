@@ -1,3 +1,6 @@
+
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -52,24 +55,19 @@ main {
     font-weight: bold;
 }
 
-@media (max-width: 768px) {
-    .course {
-        width: 45%;
-    }
-}
-
-@media (max-width: 480px) {
-    .course {
-        width: 100%;
-    }
-}
-
-
 .image2
 {
     width: 50%;
     height: 100px;
 }
+
+.course img {
+    margin-top: 10px;
+}
+
+
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -89,12 +87,11 @@ header .container {
     gap: 1rem;
     
 }
-.course img{
-    margin-top: 10px;
-}
+
 .divs{
     margin-top: 40px;text-align: center;font-size: 60px;font-family: 'Times New Roman', Times, serif;
 }
+
 footer .dail {
    
     max-width: 100%;
@@ -104,6 +101,9 @@ footer .dail {
     text-align:center;
     margin-top:40px;
 }
+
+
+
 .try{
 
 
